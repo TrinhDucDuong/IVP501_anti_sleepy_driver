@@ -47,7 +47,7 @@ class DetectorConfig:
     
     risk_penalty_blink_long: float = 25.0 # For brief abnormal closure
     risk_penalty_nodding: float = 30.0    # Pitch drop + centered yaw
-    risk_penalty_yawn: float = 25.0       
+    risk_penalty_yawn: float = 25.0
     risk_penalty_perclos: float = 2.0     # Applied per frame if PERCLOS is high (must exceed decay_rate)
     
     yaw_distraction_thresh: float = 30.0  # Angle threshold for left/right looking
